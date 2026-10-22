@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public static void main(String[] args) {	
 	Scanner scan=new Scanner(System.in);
-	System.out.println("Ingrese una palabra: ");
+	System.out.println("Ingrese una cadena: ");
 	String cadena=scan.nextLine();
-	System.out.println("Ingrese una cadena a remplazar: ");
+	System.out.println("Ingrese una subcadena a remplazar: ");
 	String buscado=scan.nextLine();
 	System.out.println("Ingrese un remplazo");
 	String remp=scan.nextLine();
