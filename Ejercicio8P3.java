@@ -14,7 +14,6 @@ import java.util.Scanner;
 		StringBuilder frase=new StringBuilder();
 		cadena.insert(0, " ");
 		String cdn=cadena.toString();
-		System.out.println(cdn);
 		StringBuilder espacio=new StringBuilder(" "); 
 		for(int i=cdn.length()-1;i>=0;i--) {
 			if(cdn.charAt(i)==' ') {
